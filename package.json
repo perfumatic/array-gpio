@@ -3,12 +3,6 @@
   "version": "1.7.3",
   "description": "array-gpio is low-level javascript library for Raspberry Pi using direct register access.",
   "main": "index.js",
-  "cpu" : ["arm","arm64"],
-  "os": ["linux"],
-  "scripts": {
-    "test": "mocha test/*.test.js",
-    "install": "node-gyp rebuild"
-  },
   "dependencies": {
     "bindings": "^1.5.0",
     "nan": "^2.14.1"
